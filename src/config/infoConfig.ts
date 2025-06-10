@@ -3,25 +3,26 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Frank Guo'
+export const headline = 'Rising Senior at George Washington University'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi there! I'm Frank Guo, a rising senior majoring in Business Analytics with a concentration in Finance at George Washington University. I'm passionate about combining data, finance, and smart systems to solve real-world problems."
+
+export const email = 'frank_guo@gwu.edu'
+export const githubUsername = 'Frank-357'
 
 // about page
-export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
+export const aboutMeHeadline = 'Who Am I and What Do I Bring?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Hi! I'm Frank Guo, currently a rising senior at George Washington University majoring in Business Analytics with a Finance concentration. As an international student with a strong interest in data-driven decision-making, I've explored intersections between finance, analytics, and automation.",
+  "Recently, I've been diving into quant trading, deep learning, and personal knowledge management (PKM). My current projects involve applying AI to structured financial problems and building smart workflows using tools like Dify and Obsidian.",
+  "This website serves as my digital playground—a place to share my work, thoughts, and long-term experiments in system design, productivity, and leveraging information for strategic advantage.",
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
+export const blogHeadLine = "My Explorations and Experiments"
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "Here I write about data, decision-making, personal systems, and the intersection of finance and technology."
 
 // social links
 export type SocialLinkType = {
